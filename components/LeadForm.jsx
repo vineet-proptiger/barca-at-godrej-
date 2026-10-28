@@ -178,7 +178,7 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Now' }) => {
           className="cursor-pointer"
           style={{
             fontSize: '11.5px',
-            color: '#a1a1aa',
+            color: '#64748B',
             lineHeight: 1.55,
             fontFamily: 'var(--font-poppins), Poppins, sans-serif',
           }}
