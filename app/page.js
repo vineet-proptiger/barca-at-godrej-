@@ -131,7 +131,7 @@ export default function Home() {
           <span className="text-[11px] sm:text-[12px] font-extrabold text-white mt-1 leading-none">ENQUIRE</span>
         </button>
         <a
-          href={`https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, '')}?text=Hi%2C%20I%20am%20interested%20in%20${encodeURIComponent(PROJECT_NAME)}.%20Please%20share%20floor%20plans%20and%20pricing.`}
+          href={`https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, '')}?text=${encodeURIComponent('Hi, I am interested in Barca at Godrej MSR City.')}`}
           target="_blank" rel="noopener noreferrer"
           className="flex-1 flex flex-col items-center justify-center py-2 px-1"
           style={{ background: '#25D366' }}
