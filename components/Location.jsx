@@ -46,7 +46,7 @@ const Location = () => {
           <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
             LOCATION ADVANTAGES
           </span>
-          <h2 className="text-[#17342D] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             A Location That Keeps You Connected
           </h2>
         </div>
@@ -61,20 +61,20 @@ const Location = () => {
                 key={index}
                 data-aos="fade-right"
                 data-aos-delay={(index * 40).toString()}
-                className="group bg-white hover:bg-[#F9F8F3] border border-[#EAE6DF] hover:border-[#8B6A34]/60 rounded-[12px] px-3.5 sm:px-4 py-2.5 sm:py-3 flex items-center justify-between shadow-[0_2px_8px_rgba(0,0,0,0.03)] hover:shadow-[0_4px_16px_rgba(23,52,45,0.12)] transition-all duration-200"
+                className="group bg-white hover:bg-[#F9F8F3] border border-[#EAE6DF] hover:border-[#8B6A34]/60 rounded-[12px] px-3.5 sm:px-4 py-2.5 sm:py-3 flex items-center justify-between shadow-[0_2px_8px_rgba(0,0,0,0.03)] hover:shadow-[0_4px_16px_rgba(0,0,0,0.12)] transition-all duration-200"
               >
                 {/* Left side: Check Icon & Title */}
                 <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 pr-2">
-                  <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#F4EFE6] group-hover:bg-[#17342D] text-[#17342D] group-hover:text-[#8B6A34] flex items-center justify-center text-[13px] sm:text-[14px] shrink-0 transition-colors duration-200">
-                    <i className="fa-solid fa-circle-check text-[#17342D] group-hover:text-[#8B6A34]"></i>
+                  <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#F4EFE6] group-hover:bg-[#111111] text-[#111111] group-hover:text-[#8B6A34] flex items-center justify-center text-[13px] sm:text-[14px] shrink-0 transition-colors duration-200">
+                    <i className="fa-solid fa-circle-check text-[#111111] group-hover:text-[#8B6A34]"></i>
                   </div>
-                  <span className="text-[#1f2937] group-hover:text-[#17342D] font-semibold text-[13.5px] sm:text-[14.5px] transition-colors duration-200 leading-snug">
+                  <span className="text-[#1f2937] group-hover:text-[#111111] font-semibold text-[13.5px] sm:text-[14.5px] transition-colors duration-200 leading-snug">
                     {item.title}
                   </span>
                 </div>
 
                 {/* Right side: Time Badge */}
-                <span className="bg-[#F4EFE6] group-hover:bg-[#17342D] text-[#17342D] group-hover:text-white font-bold text-[11.5px] sm:text-[12.5px] px-3 py-1 rounded-full whitespace-nowrap transition-colors duration-200 shrink-0 shadow-xs">
+                <span className="bg-[#F4EFE6] group-hover:bg-[#111111] text-[#111111] group-hover:text-white font-bold text-[11.5px] sm:text-[12.5px] px-3 py-1 rounded-full whitespace-nowrap transition-colors duration-200 shrink-0 shadow-xs">
                   {item.time}
                 </span>
               </div>

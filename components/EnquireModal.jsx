@@ -17,7 +17,7 @@ const fieldStyle = {
   fontSize: '14.5px',
   fontFamily: 'var(--font-poppins), Poppins, sans-serif',
   outline: 'none',
-  caretColor: '#17342D',
+  caretColor: '#111111',
 }
 
 const EnquireModal = ({ isOpen, setIsOpen }) => {
@@ -196,7 +196,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             lineHeight: 1, borderRadius: '50%',
             transition: 'background 0.2s, color 0.2s',
           }}
-          onMouseEnter={e => { e.currentTarget.style.background = '#17342D'; e.currentTarget.style.color = '#fff' }}
+          onMouseEnter={e => { e.currentTarget.style.background = '#111111'; e.currentTarget.style.color = '#fff' }}
           onMouseLeave={e => { e.currentTarget.style.background = '#f3f4f6'; e.currentTarget.style.color = '#4b5563' }}
           aria-label="Close"
         >
@@ -205,7 +205,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
 
         {/* ── Heading ── */}
         <h2 style={{
-          color: '#17342D', fontFamily: 'var(--font-poppins), Poppins, sans-serif', fontWeight: '800',
+          color: '#111111', fontFamily: 'var(--font-poppins), Poppins, sans-serif', fontWeight: '800',
           fontSize: '24px', margin: '0 0 24px', letterSpacing: '0.02em',
           textTransform: 'uppercase', textAlign: 'center'
         }}>
@@ -217,15 +217,15 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
           <div style={{ textAlign: 'center', padding: '28px 0' }}>
             <div style={{
               width: '64px', height: '64px', borderRadius: '50%',
-              background: '#F4EFE6', border: '2px solid #17342D',
+              background: '#F4EFE6', border: '2px solid #111111',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               margin: '0 auto 16px',
             }}>
-              <svg width="32" height="32" fill="none" stroke="#17342D" strokeWidth="2.5" viewBox="0 0 24 24">
+              <svg width="32" height="32" fill="none" stroke="#111111" strokeWidth="2.5" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <p style={{ color: '#17342D', fontFamily: 'var(--font-poppins), Poppins, sans-serif', fontSize: '20px', fontWeight: '700', marginBottom: '6px' }}>
+            <p style={{ color: '#111111', fontFamily: 'var(--font-poppins), Poppins, sans-serif', fontSize: '20px', fontWeight: '700', marginBottom: '6px' }}>
               Thank You!
             </p>
             <p style={{ color: '#666', fontSize: '14px' }}>
@@ -241,7 +241,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 name="fullname" required value={form.fullname} onChange={handle}
                 placeholder="Enter your name"
                 style={fieldStyle}
-                onFocus={e => { e.currentTarget.style.borderColor = '#17342D'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(139, 106, 52, 0.2)' }}
+                onFocus={e => { e.currentTarget.style.borderColor = '#111111'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(139, 106, 52, 0.2)' }}
                 onBlur={e => { e.currentTarget.style.borderColor = '#d1d5db'; e.currentTarget.style.boxShadow = 'none' }}
               />
             </div>
@@ -252,7 +252,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 name="email" type="email" value={form.email} onChange={handle}
                 placeholder="Enter your email (Optional)"
                 style={fieldStyle}
-                onFocus={e => { e.currentTarget.style.borderColor = '#17342D'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(139, 106, 52, 0.2)' }}
+                onFocus={e => { e.currentTarget.style.borderColor = '#111111'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(139, 106, 52, 0.2)' }}
                 onBlur={e => { e.currentTarget.style.borderColor = '#d1d5db'; e.currentTarget.style.boxShadow = 'none' }}
               />
             </div>
@@ -263,7 +263,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 name="phone" required value={form.phone} onChange={handle}
                 placeholder="Enter your phone number" maxLength={10}
                 style={fieldStyle}
-                onFocus={e => { e.currentTarget.style.borderColor = '#17342D'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(139, 106, 52, 0.2)' }}
+                onFocus={e => { e.currentTarget.style.borderColor = '#111111'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(139, 106, 52, 0.2)' }}
                 onBlur={e => { e.currentTarget.style.borderColor = '#d1d5db'; e.currentTarget.style.boxShadow = 'none' }}
               />
             </div>
@@ -281,11 +281,11 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', marginBottom: '22px' }}>
               <input
                 type="checkbox" id="popup-privacy" required defaultChecked
-                style={{ accentColor: '#17342D', marginTop: '3px', flexShrink: 0, width: '16px', height: '16px' }}
+                style={{ accentColor: '#111111', marginTop: '3px', flexShrink: 0, width: '16px', height: '16px' }}
               />
               <label htmlFor="popup-privacy" style={{ fontSize: '12px', color: '#6b7280', lineHeight: 1.5, cursor: 'pointer' }}>
                 I agree to receive updates as per the{' '}
-                <Link href="/privacy-policy" prefetch={false} style={{ color: '#17342D', fontWeight: '600', textDecoration: 'underline' }}>Privacy Policy</Link>.
+                <Link href="/privacy-policy" prefetch={false} style={{ color: '#111111', fontWeight: '600', textDecoration: 'underline' }}>Privacy Policy</Link>.
               </label>
             </div>
 
@@ -295,7 +295,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
               <button
                 type="submit" disabled={loading}
                 style={{
-                  background: '#17342D', color: '#ffffff', border: '2px solid #17342D',
+                  background: '#111111', color: '#ffffff', border: '2px solid #111111',
                   padding: '14px 48px', fontFamily: 'var(--font-poppins), Poppins, sans-serif', fontWeight: '800',
                   fontSize: '15px', letterSpacing: '0.05em', cursor: loading ? 'not-allowed' : 'pointer',
                   textTransform: 'uppercase', borderRadius: '50px',
@@ -304,7 +304,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                   boxShadow: '0 4px 15px rgba(0, 0, 0, 0.15)',
                 }}
                 onMouseEnter={e => { if (!loading) { e.currentTarget.style.background = '#8B6A34'; e.currentTarget.style.color = '#ffffff'; e.currentTarget.style.borderColor = '#8B6A34' } }}
-                onMouseLeave={e => { if (!loading) { e.currentTarget.style.background = '#17342D'; e.currentTarget.style.color = '#ffffff'; e.currentTarget.style.borderColor = '#17342D' } }}
+                onMouseLeave={e => { if (!loading) { e.currentTarget.style.background = '#111111'; e.currentTarget.style.color = '#ffffff'; e.currentTarget.style.borderColor = '#111111' } }}
               >
                 {loading ? 'SENDING...' : 'SUBMIT'}
               </button>

@@ -52,17 +52,17 @@ const Overview = ({ setIsOpen }) => {
               <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2 block">
                 WELLNESS ARCHITECTURE
               </span>
-              <h2 className="text-[#17342D] text-[24px] sm:text-[28px] md:text-[32px] font-black leading-[1.15] mb-4 tracking-tight">
+              <h2 className="text-[#111111] text-[24px] sm:text-[28px] md:text-[32px] font-black leading-[1.15] mb-4 tracking-tight">
                 Overview
               </h2>
 
               <div className="mb-6">
                 <div className={`text-[#4A5568] text-[15px] leading-[1.75] text-left ${!isExpanded ? 'line-clamp-4 overflow-hidden' : ''}`}>
                   <p className="m-0">
-                    <strong className="text-[#17342D]">Godrej MSR City</strong> is a large residential township by Godrej Properties, located in Shettigere, Devanahalli, North Bengaluru, along the airport corridor. The development is planned across approximately 62 acres and is designed to combine modern apartments, landscaped open spaces and lifestyle amenities within a wider residential community.
+                    <strong className="text-[#111111]">Godrej MSR City</strong> is a large residential township by Godrej Properties, located in Shettigere, Devanahalli, North Bengaluru, along the airport corridor. The development is planned across approximately 62 acres and is designed to combine modern apartments, landscaped open spaces and lifestyle amenities within a wider residential community.
                   </p>
                   <p className="m-0">
-                    One of its premier residential phases, <strong className="text-[#17342D]">Barca at Godrej MSR City</strong>, offers spacious 2 &amp; 3 BHK apartments starting from ₹1.47 Cr*. Planned across 14 acres with 800+ units across 2B+G+15 Floors and 26+ Floors, it sets a new benchmark in contemporary living.
+                    One of its premier residential phases, <strong className="text-[#111111]">Barca at Godrej MSR City</strong>, offers spacious 2 &amp; 3 BHK apartments starting from ₹1.47 Cr*. Planned across 14 acres with 800+ units across 2B+G+15 Floors and 26+ Floors, it sets a new benchmark in contemporary living.
                   </p>
                   <p className="m-0">
                     The project benefits from its strategic location near Kempegowda International Airport, Bellary Road (NH-44), and the developing North Bengaluru business corridor. Nearby destinations include airport-linked commercial developments, reputed educational institutions, healthcare centers, and shopping destinations.
@@ -74,7 +74,7 @@ const Overview = ({ setIsOpen }) => {
                 <button
                   type="button"
                   onClick={() => setIsExpanded(!isExpanded)}
-                  className="text-[#17342D] hover:text-[#8B6A34] font-bold text-[14.5px] mt-2.5 inline-flex items-center gap-1.5 hover:underline cursor-pointer transition-colors duration-200 focus:outline-none"
+                  className="text-[#111111] hover:text-[#8B6A34] font-bold text-[14.5px] mt-2.5 inline-flex items-center gap-1.5 hover:underline cursor-pointer transition-colors duration-200 focus:outline-none"
                 >
                   <span>{isExpanded ? 'Read Less' : 'Read More'}</span>
                   <svg 
@@ -92,13 +92,13 @@ const Overview = ({ setIsOpen }) => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6 pt-6 border-t border-gray-100">
                 {overviewSpecs.map((item, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-[#17342D] text-[#8B6A34] flex items-center justify-center text-[11px] flex-shrink-0 mt-0.5 shadow-sm font-bold">
+                    <div className="w-6 h-6 rounded-full bg-[#111111] text-[#8B6A34] flex items-center justify-center text-[11px] flex-shrink-0 mt-0.5 shadow-sm font-bold">
                       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round">
                         <polyline points="20 6 9 17 4 12"></polyline>
                       </svg>
                     </div>
                     <div>
-                      <h4 className="text-[#17342D] font-bold text-[16px] sm:text-[17px] mb-0.5 leading-snug">
+                      <h4 className="text-[#111111] font-bold text-[16px] sm:text-[17px] mb-0.5 leading-snug">
                         {item.title}
                       </h4>
                       <p className="text-[#6c757d] text-[13.5px] sm:text-[14px] font-medium m-0 leading-snug">

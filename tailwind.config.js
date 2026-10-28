@@ -27,13 +27,13 @@ module.exports = {
           bg: '#F9F8F3',
         },
         primary: {
-          DEFAULT: '#17342D',
-          light: '#234C42',
-          dark: '#0E221D',
+          DEFAULT: '#111111',
+          light: '#222222',
+          dark: '#000000',
         },
         dark: {
-          DEFAULT: '#17342D',
-          mid: '#0E221D',
+          DEFAULT: '#111111',
+          mid: '#000000',
         },
         light: {
           DEFAULT: '#F9F8F3',
@@ -48,9 +48,9 @@ module.exports = {
         poppins: ['var(--font-poppins)', 'Poppins', 'sans-serif'],
       },
       boxShadow: {
-        'brand-sm': '0 2px 8px rgba(23, 52, 45, 0.08)',
-        'brand-md': '0 8px 24px rgba(23, 52, 45, 0.14)',
-        'brand-lg': '0 20px 48px rgba(23, 52, 45, 0.18)',
+        'brand-sm': '0 2px 8px rgba(0, 0, 0, 0.08)',
+        'brand-md': '0 8px 24px rgba(0, 0, 0, 0.14)',
+        'brand-lg': '0 20px 48px rgba(0, 0, 0, 0.18)',
         'card': '0 4px 20px rgba(0, 0, 0, 0.06)',
       },
       keyframes: {

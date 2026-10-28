@@ -42,7 +42,7 @@ const Gallery = () => {
           <span className="block text-[#8B6A34] font-bold text-[13px] uppercase tracking-[2.5px] mb-2">
             PROJECT GALLERY
           </span>
-          <h2 className="text-[#17342D] font-extrabold text-[22px] sm:text-[26px] md:text-[30px] tracking-tight">
+          <h2 className="text-[#111111] font-extrabold text-[22px] sm:text-[26px] md:text-[30px] tracking-tight">
             Project Gallery
           </h2>
         </div>
@@ -65,8 +65,8 @@ const Gallery = () => {
               />
 
               {/* Hover Overlay */}
-              <div className="gallery-overlay absolute inset-0 bg-[#17342D]/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
-                <div className="w-14 h-14 rounded-full bg-white text-[#17342D] flex items-center justify-center text-xl shadow-lg transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
+              <div className="gallery-overlay absolute inset-0 bg-[#111111]/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                <div className="w-14 h-14 rounded-full bg-white text-[#111111] flex items-center justify-center text-xl shadow-lg transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
                   <i className="fa-solid fa-magnifying-glass-plus" />
                 </div>
               </div>
@@ -94,8 +94,8 @@ const Gallery = () => {
                 />
 
                 {/* Hover Overlay */}
-                <div className="gallery-overlay absolute inset-0 bg-[#17342D]/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
-                  <div className="w-16 h-16 rounded-full bg-white text-[#17342D] flex items-center justify-center text-2xl shadow-lg transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
+                <div className="gallery-overlay absolute inset-0 bg-[#111111]/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-full bg-white text-[#111111] flex items-center justify-center text-2xl shadow-lg transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
                     <i className="fa-solid fa-magnifying-glass-plus" />
                   </div>
                 </div>
@@ -115,7 +115,7 @@ const Gallery = () => {
           {/* Close Button */}
           <button
             onClick={() => setLightbox(null)}
-            className="absolute top-6 right-6 w-12 h-12 rounded-full bg-[#17342D] hover:bg-[#8B6A34] text-white text-2xl font-bold flex items-center justify-center transition-transform hover:scale-105 shadow-lg z-20 cursor-pointer"
+            className="absolute top-6 right-6 w-12 h-12 rounded-full bg-[#111111] hover:bg-[#8B6A34] text-white text-2xl font-bold flex items-center justify-center transition-transform hover:scale-105 shadow-lg z-20 cursor-pointer"
             aria-label="Close"
           >
             ×

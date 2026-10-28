@@ -54,7 +54,7 @@ const Amenities = () => {
           <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2 block">
             WORLD CLASS AMENITIES
           </span>
-          <h2 className="text-[#17342D] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             A Lifestyle That Complements Your Vision of Luxury
           </h2>
         </div>
@@ -67,17 +67,17 @@ const Amenities = () => {
                 key={index}
                 data-aos="fade-up"
                 data-aos-delay={((index % 4) * 60).toString()}
-                className="group relative bg-white rounded-[22px] p-7 border border-[#ececec] shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_12px_32px_rgba(23,52,45,0.08)] hover:border-[#8B6A34]/40 hover:-translate-y-1.5 transition-all duration-300 flex flex-col items-center text-center justify-between min-h-[220px]"
+                className="group relative bg-white rounded-[22px] p-7 border border-[#ececec] shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.08)] hover:border-[#8B6A34]/40 hover:-translate-y-1.5 transition-all duration-300 flex flex-col items-center text-center justify-between min-h-[220px]"
               >
                 {/* Center Content */}
                 <div className="flex flex-col items-center w-full">
                   {/* Round Icon Badge */}
-                  <div className="w-16 h-16 rounded-full flex items-center justify-center text-[22px] mb-5 transition-all duration-300 group-hover:scale-108 bg-[#F4EFE6] text-[#8B6A34] group-hover:bg-[#17342D] group-hover:text-white shadow-sm font-bold">
+                  <div className="w-16 h-16 rounded-full flex items-center justify-center text-[22px] mb-5 transition-all duration-300 group-hover:scale-108 bg-[#F4EFE6] text-[#8B6A34] group-hover:bg-[#111111] group-hover:text-white shadow-sm font-bold">
                     <i className={item.icon}></i>
                   </div>
 
                   {/* Amenity Title */}
-                  <h3 className="font-bold text-[17px] sm:text-[18px] mb-2 leading-snug transition-colors duration-200 text-[#17342D] group-hover:text-[#8B6A34]">
+                  <h3 className="font-bold text-[17px] sm:text-[18px] mb-2 leading-snug transition-colors duration-200 text-[#111111] group-hover:text-[#8B6A34]">
                     {item.title}
                   </h3>
 

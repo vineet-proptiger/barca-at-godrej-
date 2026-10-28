@@ -41,7 +41,7 @@ const VirtualTour = ({ setIsOpen }) => {
         <div style={{
           width: 'clamp(80px, 10vw, 110px)',
           height: 'clamp(80px, 10vw, 110px)',
-          background: '#17342D',
+          background: '#111111',
           borderRadius: '50%',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
           border: '4px solid #8B6A34',
@@ -49,7 +49,7 @@ const VirtualTour = ({ setIsOpen }) => {
           transition: 'all 0.4s ease',
         }}
           onMouseEnter={e => { e.currentTarget.style.borderColor = '#ffffff'; e.currentTarget.style.background = '#8B6A34'; e.currentTarget.querySelector('svg').setAttribute('fill', '#ffffff') }}
-          onMouseLeave={e => { e.currentTarget.style.borderColor = '#8B6A34'; e.currentTarget.style.background = '#17342D'; e.currentTarget.querySelector('svg').setAttribute('fill', '#ffffff') }}
+          onMouseLeave={e => { e.currentTarget.style.borderColor = '#8B6A34'; e.currentTarget.style.background = '#111111'; e.currentTarget.querySelector('svg').setAttribute('fill', '#ffffff') }}
         >
           <svg width="45" height="45" viewBox="0 0 24 24" fill="#ffffff">
             <path d="M8 5v14l11-7z" />

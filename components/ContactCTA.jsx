@@ -124,7 +124,7 @@ const ContactCTA = ({ setIsOpen }) => {
           <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2 block">
             LIMITED TIME LAUNCH OPPORTUNITY
           </span>
-          <h2 className="text-[#17342D] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             Book Your Residence at the Special Launch Price
           </h2>
           <p className="text-[#4b5563] text-[14px] sm:text-[16px] font-medium max-w-3xl mx-auto mt-3 leading-relaxed">
@@ -136,21 +136,21 @@ const ContactCTA = ({ setIsOpen }) => {
             <button
               type="button"
               onClick={() => setIsOpen && setIsOpen(true)}
-              className="px-6 sm:px-8 py-3 rounded-full font-extrabold text-[14px] bg-[#17342D] text-white border-2 border-[#17342D] hover:bg-[#8B6A34] hover:text-white hover:border-[#8B6A34] transition-all shadow-md hover:shadow-lg cursor-pointer"
+              className="px-6 sm:px-8 py-3 rounded-full font-extrabold text-[14px] bg-[#111111] text-white border-2 border-[#111111] hover:bg-[#8B6A34] hover:text-white hover:border-[#8B6A34] transition-all shadow-md hover:shadow-lg cursor-pointer"
             >
               Enquire Now
             </button>
             <button
               type="button"
               onClick={() => setIsOpen && setIsOpen(true)}
-              className="px-6 sm:px-8 py-3 rounded-full font-bold text-[14px] bg-white text-[#111] border border-gray-300 hover:border-[#17342D] hover:text-[#17342D] transition-all shadow-sm cursor-pointer"
+              className="px-6 sm:px-8 py-3 rounded-full font-bold text-[14px] bg-white text-[#111] border border-gray-300 hover:border-[#111111] hover:text-[#111111] transition-all shadow-sm cursor-pointer"
             >
               Download Brochure
             </button>
             <button
               type="button"
               onClick={() => setIsOpen && setIsOpen(true)}
-              className="px-6 sm:px-8 py-3 rounded-full font-bold text-[14px] bg-white text-[#111] border border-gray-300 hover:border-[#17342D] hover:text-[#17342D] transition-all shadow-sm cursor-pointer"
+              className="px-6 sm:px-8 py-3 rounded-full font-bold text-[14px] bg-white text-[#111] border border-gray-300 hover:border-[#111111] hover:text-[#111111] transition-all shadow-sm cursor-pointer"
             >
               Schedule Site Visit
             </button>
@@ -161,7 +161,7 @@ const ContactCTA = ({ setIsOpen }) => {
             <i className="fa-solid fa-location-dot text-[#8B6A34]"></i>
             <span>Shettigere, Devanahalli, North Bangalore</span>
             <span className="text-gray-300">|</span>
-            <a href={`tel:${PHONE_NUMBER}`} className="text-[#111111] hover:text-[#17342D] flex items-center gap-1 font-bold">
+            <a href={`tel:${PHONE_NUMBER}`} className="text-[#111111] hover:text-[#111111] flex items-center gap-1 font-bold">
               <i className="fa-solid fa-phone text-[#8B6A34]"></i>
               {PHONE_DISPLAY}
             </a>
@@ -175,7 +175,7 @@ const ContactCTA = ({ setIsOpen }) => {
               width: '56px', height: '56px', borderRadius: '50%', background: '#F4EFE6',
               display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 12px'
             }}>
-              <svg width="28" height="28" fill="none" stroke="#17342D" strokeWidth="3" viewBox="0 0 24 24">
+              <svg width="28" height="28" fill="none" stroke="#111111" strokeWidth="3" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </div>
@@ -183,8 +183,8 @@ const ContactCTA = ({ setIsOpen }) => {
             <p style={{ color: '#666', fontSize: '14px', marginTop: '6px', fontFamily: F_SANS }}>Our team will contact you shortly.</p>
           </div>
         ) : (
-          <div className="bg-white rounded-[20px] shadow-[0_10px_35px_rgba(23,52,45,0.06)] border border-[#EAE6DF] overflow-hidden max-w-[540px] mx-auto text-left" data-aos="fade-up">
-            <div className="bg-[#17342D] p-5 text-white">
+          <div className="bg-white rounded-[20px] shadow-[0_10px_35px_rgba(0,0,0,0.06)] border border-[#EAE6DF] overflow-hidden max-w-[540px] mx-auto text-left" data-aos="fade-up">
+            <div className="bg-[#111111] p-5 text-white">
               <h3 className="font-extrabold text-[18px] sm:text-[20px] text-white m-0">
                 Register for Priority Booking
               </h3>
@@ -223,14 +223,14 @@ const ContactCTA = ({ setIsOpen }) => {
                 {error && <p style={{ color: 'red', fontSize: '12px' }}>{error}</p>}
 
                 <label className="flex items-start gap-2 cursor-pointer text-left">
-                  <input type="checkbox" required defaultChecked style={{ accentColor: '#17342D', marginTop: '2px', flexShrink: 0 }} />
+                  <input type="checkbox" required defaultChecked style={{ accentColor: '#111111', marginTop: '2px', flexShrink: 0 }} />
                   <span className="text-[12px] text-gray-500 leading-normal">
-                    I agree to receive updates as per the <Link href="/privacy-policy" className="text-[#17342D] underline font-semibold">Privacy Policy</Link>.
+                    I agree to receive updates as per the <Link href="/privacy-policy" className="text-[#111111] underline font-semibold">Privacy Policy</Link>.
                   </span>
                 </label>
 
                 <button type="submit" disabled={loading}
-                  className="w-full py-3.5 rounded-full font-extrabold text-sm bg-[#17342D] text-white border-2 border-[#17342D] hover:bg-[#8B6A34] hover:text-white hover:border-[#8B6A34] transition-colors shadow-md cursor-pointer flex items-center justify-center gap-2">
+                  className="w-full py-3.5 rounded-full font-extrabold text-sm bg-[#111111] text-white border-2 border-[#111111] hover:bg-[#8B6A34] hover:text-white hover:border-[#8B6A34] transition-colors shadow-md cursor-pointer flex items-center justify-center gap-2">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" />
                   </svg>

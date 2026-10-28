@@ -83,7 +83,7 @@ const Navbar = ({ setIsOpen, onPrefetchModal }) => {
                 className="text-[13px] xl:text-[14.5px]"
                 style={{
                   fontWeight: link.active ? '700' : '600',
-                  color: link.active ? '#17342D' : '#2d3748',
+                  color: link.active ? '#111111' : '#2d3748',
                   transition: 'color 0.2s',
                   whiteSpace: 'nowrap'
                 }}
@@ -108,9 +108,9 @@ const Navbar = ({ setIsOpen, onPrefetchModal }) => {
               onTouchStart={() => onPrefetchModal?.()}
               className="inline-flex items-center justify-center px-6 py-2.5 rounded-[50px] font-extrabold text-[15px] transition-all duration-300 whitespace-nowrap shadow-md cursor-pointer"
               style={{
-                background: '#17342D',
+                background: '#111111',
                 color: '#ffffff',
-                border: '2px solid #17342D',
+                border: '2px solid #111111',
               }}
               onMouseEnter={e => {
                 e.currentTarget.style.background = '#8B6A34';
@@ -120,9 +120,9 @@ const Navbar = ({ setIsOpen, onPrefetchModal }) => {
                 onPrefetchModal?.();
               }}
               onMouseLeave={e => {
-                e.currentTarget.style.background = '#17342D';
+                e.currentTarget.style.background = '#111111';
                 e.currentTarget.style.color = '#ffffff';
-                e.currentTarget.style.borderColor = '#17342D';
+                e.currentTarget.style.borderColor = '#111111';
                 e.currentTarget.style.transform = 'none';
               }}
             >
@@ -161,7 +161,7 @@ const Navbar = ({ setIsOpen, onPrefetchModal }) => {
                 padding: '14px 24px',
                 fontSize: '15px',
                 fontWeight: link.active ? '700' : '600',
-                color: link.active ? '#17342D' : '#2d3748',
+                color: link.active ? '#111111' : '#2d3748',
                 borderBottom: '1px solid rgba(0,0,0,0.05)',
                 transition: 'color 0.2s, background 0.2s',
               }}
@@ -179,7 +179,7 @@ const Navbar = ({ setIsOpen, onPrefetchModal }) => {
               onClick={() => { setIsOpen(true); setMobileOpen(false) }}
               onTouchStart={() => onPrefetchModal?.()}
               className="w-full py-3.5 px-4 rounded-[50px] font-extrabold text-[15px] transition-all duration-300 shadow-md cursor-pointer"
-              style={{ background: '#17342D', color: '#ffffff', border: '2px solid #17342D' }}
+              style={{ background: '#111111', color: '#ffffff', border: '2px solid #111111' }}
               onMouseEnter={e => {
                 e.currentTarget.style.background = '#8B6A34';
                 e.currentTarget.style.color = '#ffffff';
@@ -187,9 +187,9 @@ const Navbar = ({ setIsOpen, onPrefetchModal }) => {
                 onPrefetchModal?.();
               }}
               onMouseLeave={e => {
-                e.currentTarget.style.background = '#17342D';
+                e.currentTarget.style.background = '#111111';
                 e.currentTarget.style.color = '#ffffff';
-                e.currentTarget.style.borderColor = '#17342D';
+                e.currentTarget.style.borderColor = '#111111';
               }}
             >
               Book Site Visit

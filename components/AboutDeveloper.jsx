@@ -166,7 +166,7 @@ const ContactForm = () => {
       {error && <p style={{ color: 'red', fontSize: '12px' }}>{error}</p>}
 
       <label style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', cursor: 'pointer' }}>
-        <input type="checkbox" required defaultChecked style={{ accentColor: '#17342D', marginTop: '2px', flexShrink: 0 }} />
+        <input type="checkbox" required defaultChecked style={{ accentColor: '#111111', marginTop: '2px', flexShrink: 0 }} />
         <span style={{ fontSize: '12px', color: '#777', fontFamily: F_SANS, lineHeight: 1.5 }}>
           I agree to receive updates as per the <Link href="/privacy-policy" prefetch={false} style={{ color: '#2563eb', textDecoration: 'underline' }}>Privacy Policy</Link>.
         </span>
@@ -193,7 +193,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
         <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
           DEVELOPER PROFILE
         </span>
-        <h2 className="text-[#17342D] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+        <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
           Crafted by the Trusted Godrej Properties
         </h2>
       </div>
@@ -212,7 +212,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
 
           {/* Dark Header */}
           <div style={{
-            background: 'linear-gradient(135deg, #0E221D, #17342D)',
+            background: 'linear-gradient(135deg, #000000, #111111)',
             padding: '18px 24px', position: 'relative', overflow: 'hidden',
           }}>
             <div style={{
@@ -289,7 +289,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
 
           {/* Form Header */}
           <div style={{
-            background: 'linear-gradient(135deg, #0E221D, #17342D)',
+            background: 'linear-gradient(135deg, #000000, #111111)',
             padding: '18px 24px', position: 'relative', overflow: 'hidden'
           }}>
             <div style={{

@@ -6,7 +6,7 @@ const faqData = [
     question: 'What configurations are available at Barca at Godrej MSR City?',
     answer: (
       <>
-        Barca at Godrej MSR City offers thoughtfully planned <strong className="font-semibold text-[#17342D]">2 BHK and 3 BHK luxury apartments</strong> designed with modern architecture, spacious living and dining areas, large private balconies, and optimal natural ventilation.
+        Barca at Godrej MSR City offers thoughtfully planned <strong className="font-semibold text-[#111111]">2 BHK and 3 BHK luxury apartments</strong> designed with modern architecture, spacious living and dining areas, large private balconies, and optimal natural ventilation.
       </>
     ),
   },
@@ -14,7 +14,7 @@ const faqData = [
     question: 'What is the starting price of Barca at Godrej MSR City?',
     answer: (
       <>
-        Starting price begins from <strong className="font-semibold text-[#17342D]">₹1.47 Cr*</strong> for 2 BHK apartments, with premium 3 BHK apartments available with pricing on request. Exclusive new launch benefits and flexible payment plans are available for early inquiries.
+        Starting price begins from <strong className="font-semibold text-[#111111]">₹1.47 Cr*</strong> for 2 BHK apartments, with premium 3 BHK apartments available with pricing on request. Exclusive new launch benefits and flexible payment plans are available for early inquiries.
       </>
     ),
   },
@@ -27,7 +27,7 @@ const faqData = [
     question: 'Where exactly is Barca at Godrej MSR City located?',
     answer: (
       <>
-        The project is strategically located in <strong className="font-semibold text-[#17342D]">Shettigere, Devanahalli, North Bengaluru</strong> along the high-growth airport corridor, close to Kempegowda International Airport and Bellary Road (NH-44).
+        The project is strategically located in <strong className="font-semibold text-[#111111]">Shettigere, Devanahalli, North Bengaluru</strong> along the high-growth airport corridor, close to Kempegowda International Airport and Bellary Road (NH-44).
       </>
     ),
   },
@@ -55,7 +55,7 @@ const FAQ = () => {
           <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-3 block">
             FAQ
           </span>
-          <h2 className="text-[#17342D] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             Frequently Asked Questions
           </h2>
         </div>
@@ -76,7 +76,7 @@ const FAQ = () => {
                   onClick={() => toggleAccordion(index)}
                   className={`w-full py-4 px-5 sm:py-5 sm:px-7 flex items-center justify-between gap-4 text-left text-[15.5px] sm:text-[17px] transition-all duration-200 ${
                     isOpen
-                      ? 'bg-[#F4EFE6] text-[#17342D] font-bold shadow-inner'
+                      ? 'bg-[#F4EFE6] text-[#111111] font-bold shadow-inner'
                       : 'bg-white text-[#212529] font-medium hover:bg-[#fafafa]'
                   }`}
                   aria-expanded={isOpen}

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { PHONE_NUMBER, PHONE_DISPLAY, RERA_NO } from '../lib/config'
 
 const Footer = ({ setIsOpen }) => (
-  <footer style={{ background: '#0E221D', color: '#ffffff', fontFamily: 'var(--font-poppins), Poppins, sans-serif' }} className="py-14 sm:py-16 px-4 sm:px-6 md:px-10 border-t border-white/10">
+  <footer style={{ background: '#000000', color: '#ffffff', fontFamily: 'var(--font-poppins), Poppins, sans-serif' }} className="py-14 sm:py-16 px-4 sm:px-6 md:px-10 border-t border-white/10">
     <div className="max-w-[1150px] mx-auto flex flex-col items-center text-center">
 
       {/* ── SECTION 8: Headline ── */}
@@ -33,7 +33,7 @@ const Footer = ({ setIsOpen }) => (
           onClick={() => setIsOpen && setIsOpen(true)}
           className="px-6 sm:px-8 py-3 rounded-full font-extrabold text-[14px] sm:text-[15px] transition-all duration-300 shadow-md hover:-translate-y-0.5 cursor-pointer"
           style={{
-            background: '#17342D',
+            background: '#111111',
             color: '#ffffff',
             border: '2px solid #8B6A34',
           }}
@@ -43,7 +43,7 @@ const Footer = ({ setIsOpen }) => (
             e.currentTarget.style.color = '#ffffff';
           }}
           onMouseLeave={e => {
-            e.currentTarget.style.background = '#17342D';
+            e.currentTarget.style.background = '#111111';
             e.currentTarget.style.borderColor = '#8B6A34';
             e.currentTarget.style.color = '#ffffff';
           }}
@@ -56,7 +56,7 @@ const Footer = ({ setIsOpen }) => (
           onClick={() => setIsOpen && setIsOpen(true)}
           className="px-6 sm:px-8 py-3 rounded-full font-extrabold text-[14px] sm:text-[15px] transition-all duration-300 shadow-md hover:-translate-y-0.5 cursor-pointer"
           style={{
-            background: '#17342D',
+            background: '#111111',
             color: '#ffffff',
             border: '2px solid #8B6A34',
           }}
@@ -66,7 +66,7 @@ const Footer = ({ setIsOpen }) => (
             e.currentTarget.style.color = '#ffffff';
           }}
           onMouseLeave={e => {
-            e.currentTarget.style.background = '#17342D';
+            e.currentTarget.style.background = '#111111';
             e.currentTarget.style.borderColor = '#8B6A34';
             e.currentTarget.style.color = '#ffffff';
           }}
@@ -79,7 +79,7 @@ const Footer = ({ setIsOpen }) => (
           onClick={() => setIsOpen && setIsOpen(true)}
           className="px-6 sm:px-8 py-3 rounded-full font-extrabold text-[14px] sm:text-[15px] transition-all duration-300 shadow-md hover:-translate-y-0.5 cursor-pointer"
           style={{
-            background: '#17342D',
+            background: '#111111',
             color: '#ffffff',
             border: '2px solid #8B6A34',
           }}
@@ -89,7 +89,7 @@ const Footer = ({ setIsOpen }) => (
             e.currentTarget.style.color = '#ffffff';
           }}
           onMouseLeave={e => {
-            e.currentTarget.style.background = '#17342D';
+            e.currentTarget.style.background = '#111111';
             e.currentTarget.style.borderColor = '#8B6A34';
             e.currentTarget.style.color = '#ffffff';
           }}

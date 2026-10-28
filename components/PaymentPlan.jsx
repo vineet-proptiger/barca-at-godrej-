@@ -37,7 +37,7 @@ const PaymentPlan = ({ setIsOpen }) => {
           <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-3 block">
             PAYMENT PLAN
           </span>
-          <h2 className="text-[#17342D] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             Flexible Payment Plan
           </h2>
         </div>
@@ -46,7 +46,7 @@ const PaymentPlan = ({ setIsOpen }) => {
         <div
           className="bg-white rounded-[24px] sm:rounded-[28px] p-2 sm:p-3"
           style={{
-            boxShadow: '0 20px 50px rgba(23, 52, 45, 0.08)',
+            boxShadow: '0 20px 50px rgba(0, 0, 0, 0.08)',
             border: '1px solid rgba(139, 106, 52, 0.2)',
           }}
           data-aos="fade-up"
@@ -66,8 +66,8 @@ const PaymentPlan = ({ setIsOpen }) => {
                     isActive ? 'scale-[1.01] sm:scale-100 z-10' : ''
                   }`}
                   style={{
-                    background: isActive ? '#17342D' : 'transparent',
-                    boxShadow: isActive ? '0 12px 30px rgba(23, 52, 45, 0.35)' : 'none',
+                    background: isActive ? '#111111' : 'transparent',
+                    boxShadow: isActive ? '0 12px 30px rgba(0, 0, 0, 0.35)' : 'none',
                   }}
                 >
                   {/* Vertical Divider for desktop (only when neither current nor previous is active) */}
@@ -82,7 +82,7 @@ const PaymentPlan = ({ setIsOpen }) => {
                   <h3
                     className="text-[22px] sm:text-[24px] font-extrabold mb-3.5 tracking-tight transition-colors duration-300"
                     style={{
-                      color: isActive ? '#ffffff' : '#17342D',
+                      color: isActive ? '#ffffff' : '#111111',
                     }}
                   >
                     {plan.title}

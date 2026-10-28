@@ -91,7 +91,7 @@ export default function Home() {
           writingMode: 'vertical-rl',
           textOrientation: 'mixed',
           letterSpacing: '2px',
-          background: '#17342D',
+          background: '#111111',
           color: '#ffffff',
           border: '2px solid #8B6A34',
           borderRight: 'none',
@@ -106,7 +106,7 @@ export default function Home() {
           id="mobile-call"
           href={`tel:${PHONE_NUMBER}`}
           className="flex-1 flex flex-col items-center justify-center py-2 px-1"
-          style={{ background: '#17342D', borderRight: '1px solid rgba(255,255,255,0.15)' }}
+          style={{ background: '#111111', borderRight: '1px solid rgba(255,255,255,0.15)' }}
         >
           <div className="phone-icon-wrap flex items-center justify-center">
             <svg width="20" height="20" fill="#ffffff" viewBox="0 0 24 24">

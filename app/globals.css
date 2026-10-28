@@ -8,16 +8,16 @@
    THEME VARIABLES — Barca at Godrej MSR City
    ═══════════════════════════════════════════════════════════════ */
 :root {
-  /* ── Barca at Godrej MSR City — Palette (#17342D + #8B6A34 + Warm Cream #F9F8F3) ── */
+  /* ── Barca at Godrej MSR City — Palette (#111111 + #8B6A34 + Warm Cream #F9F8F3) ── */
   --color-gold: #8B6A34;
   --color-gold-light: #A68245;
   --color-gold-dark: #6F5327;
   --color-gold-bg: #F9F8F3;
 
   /* ── Primary (Deep Forest Pine Green) ── */
-  --color-primary: #17342D;
-  --color-primary-light: #234C42;
-  --color-primary-dark: #0E221D;
+  --color-primary: #111111;
+  --color-primary-light: #222222;
+  --color-primary-dark: #000000;
 
   /* ── Accent (Warm Antique Gold / Bronze) ── */
   --color-teal: #8B6A34;
@@ -25,8 +25,8 @@
   --color-teal-dark: #6F5327;
 
   /* ── Dark backgrounds ── */
-  --color-dark: #17342D;
-  --color-dark-mid: #0E221D;
+  --color-dark: #111111;
+  --color-dark-mid: #000000;
 
   /* ── Backgrounds ── */
   --color-bg: #F9F8F3;
@@ -34,7 +34,7 @@
   --color-bg-muted: #F4EFE6;
 
   /* ── Text ── */
-  --color-text: #17342D;
+  --color-text: #111111;
   --color-text-mid: #2D3748;
   --color-text-light: #6c757d;
 
@@ -43,11 +43,11 @@
   --btn-radius-pill: 50px;
 
   /* ── Shadows ── */
-  --shadow-sm: 0 2px 8px rgba(23, 52, 45, 0.08);
-  --shadow-md: 0 8px 24px rgba(23, 52, 45, 0.12);
-  --shadow-lg: 0 20px 48px rgba(23, 52, 45, 0.16);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.16);
   --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.06);
-  --color-shadow-inner: rgba(23, 52, 45, 0.15);
+  --color-shadow-inner: rgba(0, 0, 0, 0.15);
 }
 
 /* ─── Keyframes ─────────────────────────────────────────────── */
@@ -231,7 +231,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #17342D, #8B6A34);
+    background: linear-gradient(180deg, #111111, #8B6A34);
     border-radius: 4px;
   }
 
@@ -241,7 +241,7 @@
 
   ::selection {
     background: rgba(139, 106, 52, 0.25);
-    color: #17342D;
+    color: #111111;
   }
 }
 
@@ -252,9 +252,9 @@
   .btn-gold {
     position: relative;
     overflow: hidden;
-    background: #17342D;
+    background: #111111;
     color: #ffffff;
-    border: 2px solid #17342D;
+    border: 2px solid #111111;
     border-radius: var(--btn-radius);
     padding: 12px 32px;
     font-family: var(--font-jost), 'Montserrat', sans-serif;
@@ -366,7 +366,7 @@
     font-family: var(--font-poppins), 'Poppins', sans-serif;
     letter-spacing: 2px;
     box-shadow: -4px 0 20px rgba(0, 0, 0, 0.25);
-    background: #17342D;
+    background: #111111;
     color: #ffffff;
     border: 2px solid #8B6A34;
     border-right: none;
@@ -407,7 +407,7 @@
   }
 
   .form-input:focus {
-    border-color: #17342D;
+    border-color: #111111;
     box-shadow: 0 0 0 3px rgba(139, 106, 52, 0.2);
   }
 
@@ -582,7 +582,7 @@
 }
 
 .lead-form-input:focus {
-  border-color: #17342D;
+  border-color: #111111;
   background: #ffffff;
   box-shadow: 0 0 0 3px rgba(139, 106, 52, 0.2);
 }
@@ -596,7 +596,7 @@
 .hero-section .lead-form-input {
   background: #FAF8F2;
   border: 1.5px solid #EAE6DF;
-  color: #17342D;
+  color: #111111;
 }
 
 .hero-section .lead-form-input::placeholder {
@@ -606,16 +606,16 @@
 
 .hero-section .lead-form-input:focus {
   background: #ffffff;
-  border-color: #17342D;
-  box-shadow: 0 0 0 3px rgba(23, 52, 45, 0.12);
+  border-color: #111111;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
 }
 
 .hero-section .lead-form-btn {
-  background: #17342D !important;
+  background: #111111 !important;
   color: #ffffff !important;
-  border: 2px solid #17342D !important;
+  border: 2px solid #111111 !important;
   font-weight: 800;
-  box-shadow: 0 4px 16px rgba(23, 52, 45, 0.25);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 
 .hero-section .lead-form-btn:hover {
@@ -628,9 +628,9 @@
 .lead-form-btn {
   width: 100%;
   padding: 14px 24px;
-  background: #17342D;
+  background: #111111;
   color: #ffffff;
-  border: 2px solid #17342D;
+  border: 2px solid #111111;
   border-radius: 50px;
   font-size: 16px;
   font-weight: 800;
@@ -656,7 +656,7 @@
 
 /* Hero buttons hover */
 .btn-blue:hover {
-  background: linear-gradient(135deg, #0E221D, #8B6A34) !important;
+  background: linear-gradient(135deg, #000000, #8B6A34) !important;
   box-shadow: 0 12px 30px rgba(139, 106, 52, 0.4);
 }
 

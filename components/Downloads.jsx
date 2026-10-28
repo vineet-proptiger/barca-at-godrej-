@@ -123,7 +123,7 @@ const DownloadCard = ({ doc, setIsOpen }) => {
         onClick={() => setIsOpen(true)}
         style={{
           display: 'block', width: '100%',
-          background: '#17342D', color: '#ffffff', border: 'none',
+          background: '#111111', color: '#ffffff', border: 'none',
           padding: '15px 0',
           fontFamily: F_JOST, fontWeight: '800', fontSize: '13px',
           letterSpacing: '0.12em', textTransform: 'uppercase',
@@ -131,7 +131,7 @@ const DownloadCard = ({ doc, setIsOpen }) => {
           flexShrink: 0,
         }}
         onMouseEnter={e => (e.currentTarget.style.background = '#8B6A34', e.currentTarget.style.color = '#ffffff')}
-        onMouseLeave={e => (e.currentTarget.style.background = '#17342D', e.currentTarget.style.color = '#ffffff')}
+        onMouseLeave={e => (e.currentTarget.style.background = '#111111', e.currentTarget.style.color = '#ffffff')}
       >
         DOWNLOAD
       </button>

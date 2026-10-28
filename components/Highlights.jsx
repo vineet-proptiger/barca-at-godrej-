@@ -44,7 +44,7 @@ const Highlights = ({ setIsOpen }) => {
           <span className="text-[#8B6A34] font-bold text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
             PROJECT HIGHLIGHTS
           </span>
-          <h2 className="text-[#17342D] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
+          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
             What Makes Barca at Godrej MSR City Stand Apart
           </h2>
         </div>
@@ -56,15 +56,15 @@ const Highlights = ({ setIsOpen }) => {
               key={i}
               data-aos="fade-up"
               data-aos-delay={(i * 50).toString()}
-              className="group relative bg-white rounded-[20px] p-7 border border-[#EAE6DF] shadow-[0_6px_25px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_16px_36px_rgba(23,52,45,0.12)] hover:border-[#8B6A34]/50 transition-all duration-300 flex flex-col justify-between overflow-hidden"
+              className="group relative bg-white rounded-[20px] p-7 border border-[#EAE6DF] shadow-[0_6px_25px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_16px_36px_rgba(0,0,0,0.12)] hover:border-[#8B6A34]/50 transition-all duration-300 flex flex-col justify-between overflow-hidden"
             >
               <div>
                 {/* Top Row: Icon & Title Side-by-Side */}
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-[52px] h-[52px] min-w-[52px] min-h-[52px] rounded-[14px] bg-[#F4EFE6] text-[#8B6A34] group-hover:bg-[#17342D] group-hover:text-white flex items-center justify-center text-[22px] transition-all duration-300 shadow-sm flex-shrink-0 group-hover:scale-105">
+                  <div className="w-[52px] h-[52px] min-w-[52px] min-h-[52px] rounded-[14px] bg-[#F4EFE6] text-[#8B6A34] group-hover:bg-[#111111] group-hover:text-white flex items-center justify-center text-[22px] transition-all duration-300 shadow-sm flex-shrink-0 group-hover:scale-105">
                     <i className={item.icon}></i>
                   </div>
-                  <h4 className="text-[#17342D] font-bold text-[17px] sm:text-[18px] leading-snug group-hover:text-[#8B6A34] transition-colors duration-200 m-0">
+                  <h4 className="text-[#111111] font-bold text-[17px] sm:text-[18px] leading-snug group-hover:text-[#8B6A34] transition-colors duration-200 m-0">
                     {item.title}
                   </h4>
                 </div>
