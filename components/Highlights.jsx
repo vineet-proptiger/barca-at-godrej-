@@ -24,7 +24,7 @@ const highlights = [
   },
   {
     title: 'Spacious 2 & 3 BHK Luxury Residences',
-    description: 'Finely crafted contemporary residences starting from ₹1.47 Cr*, designed for optimal natural ventilation, generous daylight, and panoramic views.',
+    description: 'Finely crafted contemporary residences starting from ₹1.59 Cr*, designed for optimal natural ventilation, generous daylight, and panoramic views.',
     icon: 'fa-solid fa-bed'
   },
   {

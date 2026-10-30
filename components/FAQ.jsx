@@ -14,7 +14,7 @@ const faqData = [
     question: 'What is the starting price of Barca at Godrej MSR City?',
     answer: (
       <>
-        Starting price begins from <strong className="font-semibold text-[#111111]">₹1.47 Cr*</strong> for 2 BHK apartments, with premium 3 BHK apartments available with pricing on request. Exclusive new launch benefits and flexible payment plans are available for early inquiries.
+        Starting price begins from <strong className="font-semibold text-[#111111]">₹1.59 Cr*</strong> for 2 BHK apartments, with premium 3 BHK apartments available with pricing on request. Exclusive new launch benefits and flexible payment plans are available for early inquiries.
       </>
     ),
   },

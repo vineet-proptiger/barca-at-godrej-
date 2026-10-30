@@ -62,7 +62,7 @@ const Overview = ({ setIsOpen }) => {
                     <strong className="text-[#111111]">Godrej MSR City</strong> is a large residential township by Godrej Properties, located in Shettigere, Devanahalli, North Bengaluru, along the airport corridor. The development is planned across approximately 62 acres and is designed to combine modern apartments, landscaped open spaces and lifestyle amenities within a wider residential community.
                   </p>
                   <p className="m-0">
-                    One of its premier residential phases, <strong className="text-[#111111]">Barca at Godrej MSR City</strong>, offers spacious 2 &amp; 3 BHK apartments starting from ₹1.47 Cr*. Planned across 14 acres with 800+ units across 2B+G+15 Floors and 26+ Floors, it sets a new benchmark in contemporary living.
+                    One of its premier residential phases, <strong className="text-[#111111]">Barca at Godrej MSR City</strong>, offers spacious 2 &amp; 3 BHK apartments starting from ₹1.59 Cr*. Planned across 14 acres with 800+ units across 2B+G+15 Floors and 26+ Floors, it sets a new benchmark in contemporary living.
                   </p>
                   <p className="m-0">
                     The project benefits from its strategic location near Kempegowda International Airport, Bellary Road (NH-44), and the developing North Bengaluru business corridor. Nearby destinations include airport-linked commercial developments, reputed educational institutions, healthcare centers, and shopping destinations.

@@ -128,7 +128,7 @@ const ContactCTA = ({ setIsOpen }) => {
             Book Your Residence at the Special Launch Price
           </h2>
           <p className="text-[#4b5563] text-[14px] sm:text-[16px] font-medium max-w-3xl mx-auto mt-3 leading-relaxed">
-            Spacious 2 &amp; 3 BHK Residences Starting ₹1.47 Cr* | Shettigere, Devanahalli, North Bangalore | New Launch
+            Spacious 2 &amp; 3 BHK Residences Starting ₹1.59 Cr* | Shettigere, Devanahalli, North Bangalore | New Launch
           </p>
 
           {/* CTA Buttons row */}

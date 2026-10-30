@@ -176,7 +176,7 @@ const Hero = ({ setIsOpen }) => {
                       <span className="relative inline-flex rounded-full h-2 w-2 bg-[#8B6A34]"></span>
                     </span>
                     <strong className="blink-price font-black text-[16.5px] sm:text-[20.5px] whitespace-nowrap tracking-tight text-[#111111]">
-                      ₹ 1.47 Cr*
+                      ₹ 1.59 Cr*
                     </strong>
                   </div>
                 </div>

@@ -5,7 +5,7 @@ const pricingData = [
   {
     type: '2 BHK Apartments',
     area: 'On Request',
-    price: '₹1.47 Cr*',
+    price: '₹1.59 Cr*',
     desc: 'Thoughtfully designed 2 BHK residences with optimal space planning, modern kitchen, and private balcony.',
   },
   {

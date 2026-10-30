@@ -28,13 +28,13 @@ const montserrat = Montserrat({
 export const metadata = {
   metadataBase: new URL(SITE_URL || 'https://barcaatgodrejmsrcity.co.in'),
   title: 'Barca at Godrej MSR City | 2 & 3 BHK Luxury Apartments Bangalore',
-  description: 'Barca at Godrej MSR City in Shettigere, Devanahalli, North Bangalore offers premium 2 & 3 BHK apartments across 14 acres within a 62-acre township. Starting from ₹1.47 Cr*.',
+  description: 'Barca at Godrej MSR City in Shettigere, Devanahalli, North Bangalore offers premium 2 & 3 BHK apartments across 14 acres within a 62-acre township. Starting from ₹1.59 Cr*.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Barca at Godrej MSR City | 2 & 3 BHK Luxury Apartments Bangalore',
-    description: 'Barca at Godrej MSR City in Shettigere, Devanahalli, North Bangalore offers premium 2 & 3 BHK apartments across 14 acres within a 62-acre township. Starting from ₹1.47 Cr*.',
+    description: 'Barca at Godrej MSR City in Shettigere, Devanahalli, North Bangalore offers premium 2 & 3 BHK apartments across 14 acres within a 62-acre township. Starting from ₹1.59 Cr*.',
     url: SITE_URL || 'https://barcaatgodrejmsrcity.co.in',
     siteName: 'Barca at Godrej MSR City',
     type: 'website',
@@ -42,7 +42,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Barca at Godrej MSR City | 2 & 3 BHK Luxury Apartments Bangalore',
-    description: 'Barca at Godrej MSR City in Shettigere, Devanahalli, North Bangalore offers premium 2 & 3 BHK apartments across 14 acres within a 62-acre township. Starting from ₹1.47 Cr*.',
+    description: 'Barca at Godrej MSR City in Shettigere, Devanahalli, North Bangalore offers premium 2 & 3 BHK apartments across 14 acres within a 62-acre township. Starting from ₹1.59 Cr*.',
   },
   icons: {
     icon: '/favicon/favicon.png',
